@@ -1,8 +1,8 @@
 header {
-    background: #BBBBBB;
-    padding: 0.2px;
+    background-color: #BBBBBB;
+    padding: 20px 0;
 }
-
+ 
 .caja {
     width: 940px;
     position: relative;
@@ -26,5 +26,32 @@ nav a {
     font-size: 22px;
     text-decoration: none;
     margin: 0 0 0 15px;
-    
+}
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
 }
