@@ -20,7 +20,7 @@ nav {
     right: 0;
 }
 
-nav li {
+.encabezados {
     display: inline;
 }
 
@@ -55,8 +55,6 @@ nav a:hover {
     padding: 20px;
     text-align: center;
 }
-
-
 
 .principal-acerca {
     background: #CCCCCC;
@@ -93,12 +91,12 @@ nav a:hover {
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
+    list-style-type: square;
 }
 
-.items {
-    display: inline-block;
-    width: auto;
-    font-size: 18px;
+.items-diferenciales li:hover {
+    font-weight: bold;
+    color: #C78C19;
 }
 
 .imagenDiferenciales{
