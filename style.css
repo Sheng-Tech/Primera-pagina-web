@@ -9,18 +9,13 @@ header {
     margin: 0 auto;
 }
 
-.caja h2 {
-    font-size: 30px;
-    font-weight: bold;
-}
-
 nav {
     position: absolute;
     top: 110px;
     right: 0;
 }
 
-.encabezados {
+nav li {
     display: inline;
 }
 
@@ -38,69 +33,49 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.titulo-centralizado {
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-    padding-bottom: 15px;
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
-#banner {
-    width: 100%;
-    padding: 20px 0;
-}
-
-.principal {
-    background: #CCCCCC;
-    padding: 20px;
-    text-align: center;
-}
-
-.principal-acerca {
-    background: #CCCCCC;
-    font-size: 17px;
-    padding-bottom: 5px;
-}
-
-.principal-acerca strong {
-    font-weight: bold;
-}
-
-.principal em strong {
-    color: red;
-}
-
-.mision {
-    font-size: 17px;
-    padding-bottom: 5px;
-}
-
-.servicios {
-    font-size: 17px;
-    padding-bottom: 5px;
-}
-
-.diferenciales {
-    background: #FFFFFF;
-    padding: 30px;
-}
-
-.items-diferenciales {
-    font-style: italic;
+.productos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-    list-style-type: square;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 15px;
 }
 
-.items-diferenciales li:hover {
+.productos li:hover {
+    border-color: #C78C19;
+}
+
+.productos li:active {
+    border-color: #088C19;
+}
+
+.productos h2 {
+    font-size: 30px;
     font-weight: bold;
-    color: #C78C19;
 }
 
-.imagenDiferenciales{
-    width: 50%;
+.productos li:hover h2 {
+    font-size: 33px;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 footer {
