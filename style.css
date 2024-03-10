@@ -33,6 +33,81 @@ nav a:hover {
     text-decoration: underline;
 }
 
+main {
+    margin: 0 auto;
+    width: 940px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: url(./img/bg.jpg);
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+
+/* Estilo de contacto*/
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padre {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+form {
+    margin: 40px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+/* Estilo de productos */
+
 .productos {
     width: 940px;
     margin: 0 auto;
@@ -78,14 +153,49 @@ nav a:hover {
     margin-top: 10px;
 }
 
-footer {
-    text-align: center;
-    padding: 40px;
-    background: url(./img/bg.jpg);
+/*Estilo de home*/
+
+.banner {
+    width: 100%;
 }
 
-.copyright {
-    color: #FFFFFF;
-    font-size: 13px;
-    margin: 20px;
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
 }
+
+.caja h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.encabezados {
+    display: inline;
+}
+
+.principal p {
+    margin: 0 0 1em;
+    text-align: center;
+}
+
+.principal-acerca strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em strong {
+    color: darkslategray;
+}
+
+.imagenDiferenciales{
+    width: 55%;
+}
+
